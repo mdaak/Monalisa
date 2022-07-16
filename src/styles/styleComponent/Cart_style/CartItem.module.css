@@ -1,0 +1,9 @@
+.cart_list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.cart_list img{
+    height: 5rem;
+    width: 5rem;
+}

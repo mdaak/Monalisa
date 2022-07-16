@@ -1,0 +1,40 @@
+.cart_content{
+    padding: 3rem 0;
+}
+.cart_section{
+    display: flex;
+    margin-top: 3rem;
+}
+.cart_list{
+    width: 70%;
+    padding-right: 2rem;
+}
+.cart_Quantity{
+    width: 30%;
+    border-radius:1rem;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 2rem;
+    line-height: 3rem;
+    color: rgb(52, 52, 52);
+}
+.count_price{
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+    color: rgb(67, 67, 67);
+}
+.quantity_summary{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.prosid_button{
+    background-color: rgb(76, 0, 169);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.prosid_link:active{
+    text-decoration: none;
+}

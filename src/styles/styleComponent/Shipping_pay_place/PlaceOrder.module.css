@@ -1,0 +1,129 @@
+.Shipping_section{
+    margin: 3rem 0;
+}
+.shipping_status{
+    display: flex;
+    font-weight: 500;
+}
+.status{
+    display: flex;
+    align-items: center;
+}
+.status a{
+    text-decoration: none;
+    color: #4e68a9;
+}
+
+/* shipping form section */
+.shipping_address_section{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.address_section_detail{
+    width:100%;
+    padding-right: 3rem;
+}
+.shipping_content{
+    width: 100%;
+    min-width: 200px;
+    
+
+}
+.shipping_form_heading{
+    font-weight: 500;
+    font-size: x-large;
+    color: #4b5563;
+    padding: 1rem 0;
+}
+/* form text */
+.form_text {
+    padding: 1rem 0;
+}
+.payment_order_item{
+    display: flex ;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding:  1rem;
+}
+.payment_order_item_img{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment_order_item_img img{
+    width: 5rem;
+}
+.form_payment_method{
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding:  1rem;
+}
+
+
+/* order summary section */
+
+.order_summary{
+    padding: 2rem;
+    line-height: 3rem;
+    border: 3px dashed #e5e7eb;
+    border-radius: .5rem;
+    width: 30%;
+    min-width: 10rem;
+    color: #374151;
+}
+.summary_text{
+    color: #374151 ;
+    font-weight: 800;
+    font-size: large;
+}
+
+.sub_total{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px dashed #e5e7eb;
+}
+.payment_text{
+    background-color: #4c1d95;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .payment_order_item{
+        display: block;
+    }
+    .payment_order_item_img{
+        width: 100%;
+    }
+    .payment_order_item .price{
+        line-height: 3rem;
+    }
+}
+/* address_section_detail */
+@media (max-width:1000px) {
+    .address_section_detail{
+        width:100%;
+        padding-right:0;
+    }
+    .shipping_address_section{
+        display: block;
+
+    }
+    .shipping_content{
+        width: 100%;
+    }
+    .order_summary{
+        width: 100%;
+
+    }
+}

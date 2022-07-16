@@ -1,0 +1,117 @@
+.productDetail{
+    display: flex;
+    justify-content: space-between;
+    margin:4rem 0 4rem 0;
+}
+.productImage{
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+}
+.pImg{
+    width: 100%;
+    aspect-ratio: 1/1;
+    max-width: 32rem;
+    padding: 1rem;
+
+}
+.productDescription{
+    width: 50%;
+    padding-left: 1rem;
+    justify-content: flex-end;
+}
+.brandName{
+    color: gray;
+}
+.productName{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    color: #374178;
+    font-family:"Ubuntu", sans-serif;
+    margin: 1.25rem 0 0.75rem 0;
+}
+.starReview{
+    display: flex;
+    padding: 0 0 1rem 0;
+    margin-bottom:1rem;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.starLogo svg{
+    color: rgb(235, 153, 0);
+    width: 1rem;
+    height: 1rem;
+}
+.review{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    color: rgb(179, 179, 179);
+}
+.priceStock{
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+}
+.price{
+    font-size: x-large;
+}
+.stock{
+    background-color: #A7F3D0;
+    border-radius: 1rem;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    color: #065F46;
+}
+.product_description{
+    line-height: 1.5rem;
+    color: #6B7290;
+    padding: 1rem 0;
+}
+.quantity_selection{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+}
+.quantity{
+    font-weight: 600;
+    padding-right:1rem ;
+}
+.select{
+    font-size: medium;
+    padding: .5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    background-color: #F3F4F6;
+    border: 1px solid rgb(197, 197, 197);
+}
+.addCart{
+    padding: .7rem 1.5rem;
+    margin-left: 1rem;
+    color: #ffff;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: .5rem;
+    background-color: #4C1D95;
+    border: 1px solid rgb(221, 221, 221);
+}
+@media (max-width : 1000px) {
+    .productDetail{
+        display: block;
+    }
+    .productImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pImg{
+        width:100% ;
+    }
+    .productDescription{
+        width: 100%;
+        padding-top: 3rem;
+    }
+}
