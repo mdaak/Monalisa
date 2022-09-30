@@ -14,7 +14,7 @@
     font-weight: bolder;
 }
 .heading{
-    font-size:5vw;
+    font-size:clamp(1rem, 3vw, 5rem);
     font-weight: bolder;
     padding: 1rem 0;
 }
@@ -33,7 +33,7 @@
 
 .dual_div{
     gap: 5%;
-    margin:2rem 0;
+    /* margin:2rem 0; */
 } 
 .dual_image{
     display: flex;
@@ -47,26 +47,11 @@
     margin: 3rem 0;
 }
 
-/* @media (max-with:768px) {
-     
-    .dual_text{
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-    .dual_image{
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-} */
-
 @media (min-width:768px) {
     .dual_div{
         display: flex;
         gap: 5%;
-        margin:2rem 0;
-        padding: 3rem 0;
+        margin:3rem 0;
     }   
     .dual_text{
         display: flex;
@@ -78,10 +63,4 @@
         align-items: center;
         width: 50%;
     }
-    /* .dual_image{
-        width: 100%;
-    }
-    .dual_text{
-        width: 100%;
-    } */
 }
