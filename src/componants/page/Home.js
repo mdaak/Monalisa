@@ -1,15 +1,18 @@
 import React from 'react'
 import CardSection from '../componant/cardFile/CardSection';
 import CarouselComp from '../componant/carouselFile/CarouselComp';
-import Layout from '../Layout';
+// import Layout from '../Layout';
 
 
 function Home() {
   return (
-    <Layout>
+    <>
+      {/* <Layout> */}
       <CarouselComp/>
       <CardSection/>
-    </Layout>
+    {/* </Layout> */}
+    </>
+  
   )
 }
 

@@ -12,12 +12,14 @@ import Cart from './componants/page/Cart';
 import Shipping from './componants/page/Shipping';
 import Payment from './componants/page/Payment';
 import PlaceOrder from './componants/page/PlaceOrder';
+import Layout from './componants/Layout';
 // import NavBar from './componants/NavBar';
 
 function App() {
   return (
     <>
-    <NavBar/>
+      <NavBar />
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Navigate to="/" />} />
@@ -31,7 +33,9 @@ function App() {
           <Route path="/payment" element={<Payment />} />
           <Route path="/place_order" element={<PlaceOrder />} />
         </Routes>
-        <Footer/>
+      </Layout>
+
+      <Footer />
     </>
 
 

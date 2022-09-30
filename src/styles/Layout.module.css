@@ -1,6 +1,6 @@
 .layoutStyle{
 align-items: center;
-margin: 0 10% 0 10%;
+margin: 0 10%;
 }
 @media (max-width:768px) {
     .layoutStyle{
